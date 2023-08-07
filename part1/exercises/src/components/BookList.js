@@ -8,7 +8,7 @@ export default function BookList() {
       <div>
          <h3>{pageTitle}</h3>
          <img src={book1} alt="Sorry too big" />
-         <img src={book2} alt="Also too big" />
+         <img src={book2} alt="Not too big we fixed it" />
          <img src={book3} alt="Aaaaaaa" />
       </div>      
    );
