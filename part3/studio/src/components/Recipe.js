@@ -1,7 +1,7 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.muydelish.com/about/";
+   let authorPhoto = "https://www.muydelish.com/wp-content/uploads/2022/07/ana-frias-about-muy-delish.png";
+   let authorName = "Ana Frias";
 
    return (
       <div>
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["Corn Torillas", "Tomatillo Salsa", "Avocado Oil", "Queso Blanco", "Fried Egg"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,8 +34,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Chilaquiles Verde</h1>
+            <p>A Mexican breakfast dish made from torilla chips soaked in enchillada sauce.  Savory, unique, and easy to add to with all of your favorite Mexican and breakfast toppings!</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -47,7 +47,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://www.muydelish.com/wp-content/uploads/2022/10/Chilaquiles-Verdes.jpg" alt="Chilaquiles" className="imageUpdates"/>
    );
 }
 
